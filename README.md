@@ -30,6 +30,7 @@ Spawner de Basura
 
 •	La frecuencia de generación aumenta con el tiempo, incrementando la dificultad.<br>  
 &nbsp;
+
 Pantalla de Game Over  
 
 •	Al perder, aparece una interfaz con un botón para reiniciar el juego.<br>
