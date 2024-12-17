@@ -1,11 +1,11 @@
 # ProyectoFinal - Trash Dash
-Jeremy J. Sanchez Diaz
-Eduardo A. Caceres Vazquez
-Joxanniel J. Irizarry Estrella
+# Jeremy J. Sanchez Diaz
+# Eduardo A. Caceres Vazquez
+# Joxanniel J. Irizarry Estrella
 
-Prof. David Flores Granados
+# Prof. David Flores Granados
 
-Documentación del Proyecto Final de la clase
+# Documentación del Proyecto Final de la clase
 
 Descripción:
 Trash Dash es un videojuego educativo donde el jugador debe recoger basura en una playa. El objetivo principal es crear conciencia sobre el cuidado del medio ambiente, mientras el jugador se enfrenta a desafíos crecientes como el aumento de basura al pasar el tiempo.
