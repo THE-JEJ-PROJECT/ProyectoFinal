@@ -1,2 +1,2 @@
 # ProyectoFinal
-Documentación del Poryecto Final de la clase
+Documentación del Proyecto Final de la clase
