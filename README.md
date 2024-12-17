@@ -43,8 +43,8 @@ Técnicas del Juego:
 
 
 2. Sistema de Control de Juego (GameController)
-Descripción: Gestiona la lógica del flujo del juego, incluyendo la condición de Game Over y el reinicio de la partida.
-Implementación: Se utiliza un script llamado GameController que detecta las condiciones de pérdida y muestra la pantalla de Game Over.
+• Descripción: Gestiona la lógica del flujo del juego, incluyendo la condición de Game Over y el reinicio de la partida.
+• Implementación: Se utiliza un script llamado GameController que detecta las condiciones de pérdida y muestra la pantalla de Game Over.
 
 
 3. Pantalla de Game Over
