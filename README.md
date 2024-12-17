@@ -17,18 +17,19 @@ Movimiento del Jugador
 •	El jugador se mueve usando las teclas WASD o las flechas del teclado.  
 
 •	La dirección del personaje cambia según el movimiento.<br> 
-
+&nbsp;
 
 Recolección de Basura  
 
 •	Al tocar objetos etiquetados como “Trash”, estos se destruyen y se incrementa el contador de basura recolectada.<br>
+&nbsp;
 
 Spawner de Basura  
 
 •	La basura se genera automáticamente a través de un Spawner.  
 
 •	La frecuencia de generación aumenta con el tiempo, incrementando la dificultad.<br>  
-
+&nbsp;
 
 Pantalla de Game Over  
 
