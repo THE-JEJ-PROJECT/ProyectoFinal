@@ -119,23 +119,23 @@ Scripts Claves:
 
 Script Implementados
 
-PlayerMovement: Controla el movimiento del jugador. Utiliza las teclas WASD o las flechas del teclado para mover al personaje y ajustar la rotación en la dirección del movimiento.
+- PlayerMovement: Controla el movimiento del jugador. Utiliza las teclas WASD o las flechas del teclado para mover al personaje y ajustar la rotación en la dirección del movimiento.
 ![image](https://github.com/user-attachments/assets/9c0e2a48-1947-4cb6-9115-25df3595033d)
 
 
-Game Controller: Gestiona el flujo del juego, incluyendo el estado de Game Over y la lógica de reinicio.
+- Game Controller: Gestiona el flujo del juego, incluyendo el estado de Game Over y la lógica de reinicio.
 ![image](https://github.com/user-attachments/assets/d75de50d-cbba-4f02-b485-fbb3d1e02de5)
 
 
-AutoSpawner: Se encarga de generar basura automáticamente en posiciones aleatorias. Utiliza una corutina (IEnumerator) para instanciar objetos con un intervalo definido
+- AutoSpawner: Se encarga de generar basura automáticamente en posiciones aleatorias. Utiliza una corutina (IEnumerator) para instanciar objetos con un intervalo definido
 ![image](https://github.com/user-attachments/assets/dcce5ab9-132f-43d4-9a85-d930e2fd0936)
 
 
-TrashCollection: Este script gestiona la recolección de basura. Detecta colisiones con objetos etiquetados como "Trash", incrementa un contador visible en la UI y destruye el objeto recolectado.
+- TrashCollection: Este script gestiona la recolección de basura. Detecta colisiones con objetos etiquetados como "Trash", incrementa un contador visible en la UI y destruye el objeto recolectado.
 ![image](https://github.com/user-attachments/assets/5c4b852c-6ed3-4541-aa86-f13c8e7b3cd0)
 
 
-GameOverScreen: Maneja la interfaz de Game Over. Activa la pantalla de Game Over y proporciona una función para reiniciar la escena actual usando el SceneManager.
+- GameOverScreen: Maneja la interfaz de Game Over. Activa la pantalla de Game Over y proporciona una función para reiniciar la escena actual usando el SceneManager.
 ![image](https://github.com/user-attachments/assets/d82eb928-0218-466f-b57b-40d7da68d2fb)
 
 ---
