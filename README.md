@@ -72,7 +72,7 @@ Pantalla de Game Over
 
     • Impacto: Este sistema asegura que el juego sea dinámico, desafiando al jugador a medida que avanza.<br>  
 
-
+&nbsp;
 
 2. Sistema de Control de Juego (GameController)
    
@@ -80,7 +80,7 @@ Pantalla de Game Over
 
     • Implementación: Se utiliza un script llamado GameController que detecta las condiciones de pérdida y muestra la pantalla de Game Over.<br>  
 
-
+&nbsp;
 
 3. Pantalla de Game Over
    
@@ -90,7 +90,7 @@ Pantalla de Game Over
 
     • Impacto: Esta funcionalidad proporciona una retroalimentación clara al jugador cuando pierde. Mejora la experiencia de usuario al permitir un reinicio inmediato.<br>  
 
-
+&nbsp;
 
 4. Optimización de Prefabs y Recursos
    
@@ -100,7 +100,7 @@ Pantalla de Game Over
 
     • Impacto: Esto garantiza que el juego se mantenga fluido incluso en dispositivos con especificaciones limitadas.<br>  
 
-
+&nbsp;
 
 5. Sistema de Scripts
     
