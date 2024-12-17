@@ -64,7 +64,7 @@ Descripción: Cada script tiene una funcionalidad específica para mantener la m
 Scripts Claves:
 -	TrashCollection.cs: Maneja la recolección de basura.
 -	GameController.cs: Gestiona el estado del juego y controla la lógica de Game Over.
--	IncreasingAutoSpawner.cs: Controla la generación progresiva de basura.
+-	AutoSpawner.cs: Controla la generación progresiva de basura.
 
 
 
