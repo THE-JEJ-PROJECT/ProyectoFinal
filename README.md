@@ -1,4 +1,4 @@
-# ProyectoFinal - Trash Dash
+# Proyecto Final - Trash Dash
 # Jeremy J. Sanchez Diaz, Eduardo A. Caceres Vazquez, Joxanniel J. Irizarry Estrella
 # Prof. David Flores Granados
 
