@@ -16,23 +16,23 @@ Movimiento del Jugador
 
 •	El jugador se mueve usando las teclas WASD o las flechas del teclado.  
 
-•	La dirección del personaje cambia según el movimiento.  
+•	La dirección del personaje cambia según el movimiento.<br>  
 
 
 Recolección de Basura  
 
-•	Al tocar objetos etiquetados como “Trash”, estos se destruyen y se incrementa el contador de basura recolectada.
+•	Al tocar objetos etiquetados como “Trash”, estos se destruyen y se incrementa el contador de basura recolectada.<br>
 
 Spawner de Basura  
 
 •	La basura se genera automáticamente a través de un Spawner.  
 
-•	La frecuencia de generación aumenta con el tiempo, incrementando la dificultad.  
+•	La frecuencia de generación aumenta con el tiempo, incrementando la dificultad.<br>  
 
 
 Pantalla de Game Over  
 
-•	Al perder, aparece una interfaz con un botón para reiniciar el juego.
+•	Al perder, aparece una interfaz con un botón para reiniciar el juego.<br>
 
 
 
@@ -70,7 +70,7 @@ Pantalla de Game Over
 
 • Técnica Implementada: El spawner utiliza una corutina (IEnumerator) que permite controlar el intervalo de tiempo entre cada generación de basura. A medida que el tiempo transcurre, el intervalo de generación disminuye utilizando la función Lerp, que calcula un valor interpuesto entre dos números (el intervalo inicial y el intervalo mínimo).  
 
-• Impacto: Este sistema asegura que el juego sea dinámico, desafiando al jugador a medida que avanza.  
+• Impacto: Este sistema asegura que el juego sea dinámico, desafiando al jugador a medida que avanza.<br>  
 
 
 
@@ -78,7 +78,7 @@ Pantalla de Game Over
    
 • Descripción: Gestiona la lógica del flujo del juego, incluyendo la condición de Game Over y el reinicio de la partida.  
 
-• Implementación: Se utiliza un script llamado GameController que detecta las condiciones de pérdida y muestra la pantalla de Game Over.  
+• Implementación: Se utiliza un script llamado GameController que detecta las condiciones de pérdida y muestra la pantalla de Game Over.<br>  
 
 
 
@@ -88,7 +88,7 @@ Pantalla de Game Over
 
 • Técnica Implementada: Se activa mediante el método TriggerGameOver del GameManager, que pausa el tiempo y muestra un Canvas. El botón utiliza el sistema de eventos de Unity para ejecutar el método RestartGame, que recarga la escena actual.  
 
-• Impacto: Esta funcionalidad proporciona una retroalimentación clara al jugador cuando pierde. Mejora la experiencia de usuario al permitir un reinicio inmediato.  
+• Impacto: Esta funcionalidad proporciona una retroalimentación clara al jugador cuando pierde. Mejora la experiencia de usuario al permitir un reinicio inmediato.<br>  
 
 
 
@@ -98,7 +98,7 @@ Pantalla de Game Over
 
 • Técnica Implementada: Los prefabs de basura utilizan BoxColliders, que son más eficientes que otros tipos de colisionadores. Los objetos generados se destruyen al ser recolectados, asegurando que la memoria no se sobrecargue.  
 
-• Impacto: Esto garantiza que el juego se mantenga fluido incluso en dispositivos con especificaciones limitadas.  
+• Impacto: Esto garantiza que el juego se mantenga fluido incluso en dispositivos con especificaciones limitadas.<br>  
 
 
 
