@@ -66,53 +66,53 @@ Pantalla de Game Over
 
 1. Spawner Incremental
 
-• Descripción: El sistema de generación automática de basura utiliza un spawner incremental, que aumenta la frecuencia con la que los objetos se generan en la escena a medida que pasa el tiempo. Esto crea un aumento progresivo en la dificultad del juego, manteniendo al jugador constantemente desafiado.
+    • Descripción: El sistema de generación automática de basura utiliza un spawner incremental, que aumenta la frecuencia con la que los objetos se generan en la escena a medida que pasa el tiempo. Esto crea un aumento progresivo en la dificultad del juego, manteniendo al jugador constantemente desafiado.
 
-• Técnica Implementada: El spawner utiliza una corutina (IEnumerator) que permite controlar el intervalo de tiempo entre cada generación de basura. A medida que el tiempo transcurre, el intervalo de generación disminuye utilizando la función Lerp, que calcula un valor interpuesto entre dos números (el intervalo inicial y el intervalo mínimo).  
+    • Técnica Implementada: El spawner utiliza una corutina (IEnumerator) que permite controlar el intervalo de tiempo entre cada generación de basura. A medida que el tiempo transcurre, el intervalo de generación disminuye utilizando la función Lerp, que calcula un valor interpuesto entre dos números (el intervalo inicial y el intervalo mínimo).  
 
-• Impacto: Este sistema asegura que el juego sea dinámico, desafiando al jugador a medida que avanza.<br>  
+    • Impacto: Este sistema asegura que el juego sea dinámico, desafiando al jugador a medida que avanza.<br>  
 
 
 
 2. Sistema de Control de Juego (GameController)
    
-• Descripción: Gestiona la lógica del flujo del juego, incluyendo la condición de Game Over y el reinicio de la partida.  
+    • Descripción: Gestiona la lógica del flujo del juego, incluyendo la condición de Game Over y el reinicio de la partida.  
 
-• Implementación: Se utiliza un script llamado GameController que detecta las condiciones de pérdida y muestra la pantalla de Game Over.<br>  
+    • Implementación: Se utiliza un script llamado GameController que detecta las condiciones de pérdida y muestra la pantalla de Game Over.<br>  
 
 
 
 3. Pantalla de Game Over
    
-• Descripción: Cuando la barra de contaminación llega al límite, el juego muestra una pantalla de Game Over, que incluye un mensaje y un botón para reiniciar el juego.  
+    • Descripción: Cuando la barra de contaminación llega al límite, el juego muestra una pantalla de Game Over, que incluye un mensaje y un botón para reiniciar el juego.  
 
-• Técnica Implementada: Se activa mediante el método TriggerGameOver del GameManager, que pausa el tiempo y muestra un Canvas. El botón utiliza el sistema de eventos de Unity para ejecutar el método RestartGame, que recarga la escena actual.  
+    • Técnica Implementada: Se activa mediante el método TriggerGameOver del GameManager, que pausa el tiempo y muestra un Canvas. El botón utiliza el sistema de eventos de Unity para ejecutar el método RestartGame, que recarga la escena actual.  
 
-• Impacto: Esta funcionalidad proporciona una retroalimentación clara al jugador cuando pierde. Mejora la experiencia de usuario al permitir un reinicio inmediato.<br>  
+    • Impacto: Esta funcionalidad proporciona una retroalimentación clara al jugador cuando pierde. Mejora la experiencia de usuario al permitir un reinicio inmediato.<br>  
 
 
 
 4. Optimización de Prefabs y Recursos
    
-• Descripción: Para evitar problemas de rendimiento, los objetos generados en la escena son prefabs optimizados con colisionadores simples y modelos de baja complejidad.  
+    • Descripción: Para evitar problemas de rendimiento, los objetos generados en la escena son prefabs optimizados con colisionadores simples y modelos de baja complejidad.  
 
-• Técnica Implementada: Los prefabs de basura utilizan BoxColliders, que son más eficientes que otros tipos de colisionadores. Los objetos generados se destruyen al ser recolectados, asegurando que la memoria no se sobrecargue.  
+    • Técnica Implementada: Los prefabs de basura utilizan BoxColliders, que son más eficientes que otros tipos de colisionadores. Los objetos generados se destruyen al ser recolectados, asegurando que la memoria no se sobrecargue.  
 
-• Impacto: Esto garantiza que el juego se mantenga fluido incluso en dispositivos con especificaciones limitadas.<br>  
+    • Impacto: Esto garantiza que el juego se mantenga fluido incluso en dispositivos con especificaciones limitadas.<br>  
 
 
 
 5. Sistema de Scripts
     
-Descripción: Cada script tiene una funcionalidad específica para mantener la modularidad y facilitar la colaboración.  
+    - Descripción: Cada script tiene una funcionalidad específica para mantener la modularidad y facilitar la colaboración.  
 
-Scripts Claves:  
+    - Scripts Claves:  
 
--	TrashCollection.cs: Maneja la recolección de basura.
+        -	TrashCollection.cs: Maneja la recolección de basura.
   
--	GameController.cs: Gestiona el estado del juego y controla la lógica de Game Over.
+        -	GameController.cs: Gestiona el estado del juego y controla la lógica de Game Over.
   
--	AutoSpawner.cs: Controla la generación progresiva de basura.<br>
+        -	AutoSpawner.cs: Controla la generación progresiva de basura.<br>
   
 
 ---
