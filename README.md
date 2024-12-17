@@ -11,8 +11,11 @@ Trash Dash es un videojuego educativo donde el jugador debe recoger basura en un
 
 Movimiento del Jugador  
 
-•	El jugador se mueve usando las teclas WASD o las flechas del teclado.
-•	La dirección del personaje cambia según el movimiento.
+•	El jugador se mueve usando las teclas WASD o las flechas del teclado.  
+
+•	La dirección del personaje cambia según el movimiento.  
+
+
 
 Recolección de Basura
 •	Al tocar objetos etiquetados como “Trash”, estos se destruyen y se incrementa el contador de basura recolectada.
