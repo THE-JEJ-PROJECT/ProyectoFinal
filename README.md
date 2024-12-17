@@ -125,19 +125,19 @@ Script Implementados
 
 
 - Game Controller: Gestiona el flujo del juego, incluyendo el estado de Game Over y la lógica de reinicio.
-![image](https://github.com/user-attachments/assets/d75de50d-cbba-4f02-b485-fbb3d1e02de5)<br>
+![WhatsApp Image 2024-12-17 at 12 02 02 PM](https://github.com/user-attachments/assets/97ee7f66-482b-4d82-9f13-570ecd68364e)<br>
 
 
 - AutoSpawner: Se encarga de generar basura automáticamente en posiciones aleatorias. Utiliza una corutina (IEnumerator) para instanciar objetos con un intervalo definido
-![image](https://github.com/user-attachments/assets/dcce5ab9-132f-43d4-9a85-d930e2fd0936)<br>
+![WhatsApp Image 2024-12-17 at 11 56 58 AM](https://github.com/user-attachments/assets/5cdcdd12-dcd5-4b67-a367-061dcea5f8a3)<br>
 
 
 - TrashCollection: Este script gestiona la recolección de basura. Detecta colisiones con objetos etiquetados como "Trash", incrementa un contador visible en la UI y destruye el objeto recolectado.
-![image](https://github.com/user-attachments/assets/5c4b852c-6ed3-4541-aa86-f13c8e7b3cd0)<br>
+![WhatsApp Image 2024-12-17 at 12 12 42 PM](https://github.com/user-attachments/assets/d14205f9-c0f6-4f9f-abeb-300777329d2b)<br>
 
 
 - GameOverScreen: Maneja la interfaz de Game Over. Activa la pantalla de Game Over y proporciona una función para reiniciar la escena actual usando el SceneManager.
-![image](https://github.com/user-attachments/assets/d82eb928-0218-466f-b57b-40d7da68d2fb)<br>
+![WhatsApp Image 2024-12-17 at 12 05 34 PM](https://github.com/user-attachments/assets/ef218dc8-044d-48f7-8f0f-4c2ab2f0e283)<br>
 
 ---
 
