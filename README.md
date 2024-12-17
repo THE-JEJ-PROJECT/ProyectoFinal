@@ -9,23 +9,23 @@ Trash Dash es un videojuego educativo donde el jugador debe recoger basura en un
 
 **Mecánicas Principales:**
 
-Movimiento del Jugador
+**Movimiento del Jugador**
 •	El jugador se mueve usando las teclas WASD o las flechas del teclado.
 •	La dirección del personaje cambia según el movimiento.
 
-Recolección de Basura
+**Recolección de Basura**
 •	Al tocar objetos etiquetados como “Trash”, estos se destruyen y se incrementa el contador de basura recolectada.
 
-Spawner de Basura
+**Spawner de Basura**
 •	La basura se genera automáticamente a través de un Spawner.
 •	La frecuencia de generación aumenta con el tiempo, incrementando la dificultad.
 
-Pantalla de Game Over
+**Pantalla de Game Over**
 •	Al perder, aparece una interfaz con un botón para reiniciar el juego.
 
 
 
-Configuración en Unity:
+**Configuración en Unity:**
 •	Crear los prefabs de basura y etiquetarlos como Trash.
 •	Configurar el Spawner en la escena y asignarle los prefabs.
 •	Crear un Canvas para el contador de basura.
