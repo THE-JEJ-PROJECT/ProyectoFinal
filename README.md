@@ -7,6 +7,9 @@ Descripción:
 Trash Dash es un videojuego educativo donde el jugador debe recoger basura en una playa. El objetivo principal es crear conciencia sobre el cuidado del medio ambiente, mientras el jugador se enfrenta a desafíos crecientes como el aumento de basura al pasar el tiempo.
 
 
+
+
+
 **Mecánicas Principales:**
 
 Movimiento del Jugador  
@@ -29,7 +32,10 @@ Spawner de Basura
 
 Pantalla de Game Over  
 
-•	Al perder, aparece una interfaz con un botón para reiniciar el juego.  
+•	Al perder, aparece una interfaz con un botón para reiniciar el juego.
+
+
+
 
 
 
@@ -47,7 +53,10 @@ Pantalla de Game Over
 
 •	Configurar la Game Over UI con un botón que reinicie la escena.  
 
-•	Asignar los scripts a sus respectivos GameObjects.  
+•	Asignar los scripts a sus respectivos GameObjects.
+
+
+
 
 
 
@@ -65,7 +74,7 @@ Pantalla de Game Over
 
 
 
-4. Sistema de Control de Juego (GameController)
+2. Sistema de Control de Juego (GameController)
    
 • Descripción: Gestiona la lógica del flujo del juego, incluyendo la condición de Game Over y el reinicio de la partida.  
 
@@ -73,7 +82,7 @@ Pantalla de Game Over
 
 
 
-6. Pantalla de Game Over
+3. Pantalla de Game Over
    
 • Descripción: Cuando la barra de contaminación llega al límite, el juego muestra una pantalla de Game Over, que incluye un mensaje y un botón para reiniciar el juego.  
 
@@ -83,7 +92,7 @@ Pantalla de Game Over
 
 
 
-8. Optimización de Prefabs y Recursos
+4. Optimización de Prefabs y Recursos
    
 • Descripción: Para evitar problemas de rendimiento, los objetos generados en la escena son prefabs optimizados con colisionadores simples y modelos de baja complejidad.  
 
@@ -93,7 +102,7 @@ Pantalla de Game Over
 
 
 
-10. Sistema de Scripts
+5. Sistema de Scripts
     
 Descripción: Cada script tiene una funcionalidad específica para mantener la modularidad y facilitar la colaboración.  
 
