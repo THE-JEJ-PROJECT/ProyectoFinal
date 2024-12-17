@@ -95,6 +95,7 @@ GameOverScreen: Maneja la interfaz de Game Over. Activa la pantalla de Game Over
 
 
 
+Gameplay del Juego
 
 
 
