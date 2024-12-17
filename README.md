@@ -16,7 +16,7 @@ Movimiento del Jugador
 
 •	El jugador se mueve usando las teclas WASD o las flechas del teclado.  
 
-•	La dirección del personaje cambia según el movimiento.<br>  
+•	La dirección del personaje cambia según el movimiento.<br> 
 
 
 Recolección de Basura  
