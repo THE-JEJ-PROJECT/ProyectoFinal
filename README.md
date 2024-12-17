@@ -112,7 +112,7 @@ Scripts Claves:
   
 -	GameController.cs: Gestiona el estado del juego y controla la lógica de Game Over.
   
--	AutoSpawner.cs: Controla la generación progresiva de basura.
+-	AutoSpawner.cs: Controla la generación progresiva de basura.<br>
   
 
 ---
