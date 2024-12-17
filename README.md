@@ -3,24 +3,25 @@
 # Prof. David Flores Granados
 
 
-###**Descripción:**
--Trash Dash es un videojuego educativo donde el jugador debe recoger basura en una playa. El objetivo principal es crear conciencia sobre el cuidado del medio ambiente, mientras el jugador se enfrenta a desafíos crecientes como el aumento de basura al pasar el tiempo.
+Descripción:
+Trash Dash es un videojuego educativo donde el jugador debe recoger basura en una playa. El objetivo principal es crear conciencia sobre el cuidado del medio ambiente, mientras el jugador se enfrenta a desafíos crecientes como el aumento de basura al pasar el tiempo.
 
 
 **Mecánicas Principales:**
 
-**Movimiento del Jugador**
+Movimiento del Jugador  
+
 •	El jugador se mueve usando las teclas WASD o las flechas del teclado.
 •	La dirección del personaje cambia según el movimiento.
 
-**Recolección de Basura**
+Recolección de Basura
 •	Al tocar objetos etiquetados como “Trash”, estos se destruyen y se incrementa el contador de basura recolectada.
 
-**Spawner de Basura**
+Spawner de Basura
 •	La basura se genera automáticamente a través de un Spawner.
 •	La frecuencia de generación aumenta con el tiempo, incrementando la dificultad.
 
-**Pantalla de Game Over**
+Pantalla de Game Over
 •	Al perder, aparece una interfaz con un botón para reiniciar el juego.
 
 
