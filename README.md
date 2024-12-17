@@ -34,16 +34,22 @@ Pantalla de Game Over
 
 
 
-**Configuración en Unity:**
-•	Crear los prefabs de basura y etiquetarlos como Trash.
-•	Configurar el Spawner en la escena y asignarle los prefabs.
-•	Crear un Canvas para el contador de basura.
-•	Configurar la Game Over UI con un botón que reinicie la escena.
-•	Asignar los scripts a sus respectivos GameObjects.
+**Configuración en Unity:**  
+
+•	Crear los prefabs de basura y etiquetarlos como Trash.  
+
+•	Configurar el Spawner en la escena y asignarle los prefabs.  
+
+•	Crear un Canvas para el contador de basura.  
+
+•	Configurar la Game Over UI con un botón que reinicie la escena.  
+
+•	Asignar los scripts a sus respectivos GameObjects.  
 
 
 
-Técnicas del Juego:
+
+**Técnicas del Juego:**
 
 1. Spawner Incremental
 • Descripción: El sistema de generación automática de basura utiliza un spawner incremental, que aumenta la frecuencia con la que los objetos se generan en la escena a medida que pasa el tiempo. Esto crea un aumento progresivo en la dificultad del juego, manteniendo al jugador constantemente desafiado.
