@@ -138,7 +138,7 @@ TrashCollection: Este script gestiona la recolección de basura. Detecta colisio
 GameOverScreen: Maneja la interfaz de Game Over. Activa la pantalla de Game Over y proporciona una función para reiniciar la escena actual usando el SceneManager.
 ![image](https://github.com/user-attachments/assets/d82eb928-0218-466f-b57b-40d7da68d2fb)
 
-
+---
 
 Gameplay del Juego
 https://github.com/user-attachments/assets/01f59dfc-3ef9-4bd5-a650-93c1d85d3dfc
