@@ -121,7 +121,7 @@ Pantalla de Game Over
 Script Implementados
 
 - PlayerMovement: Controla el movimiento del jugador. Utiliza las teclas WASD o las flechas del teclado para mover al personaje y ajustar la rotación en la dirección del movimiento.
-![image](https://github.com/user-attachments/assets/9c0e2a48-1947-4cb6-9115-25df3595033d)<br>
+![WhatsApp Image 2024-12-17 at 12 33 04 PM - Copy](https://github.com/user-attachments/assets/4af9aae9-6647-4b3f-bbec-ae14355212c6)<br>
 
 
 - Game Controller: Gestiona el flujo del juego, incluyendo el estado de Game Over y la lógica de reinicio.
