@@ -16,13 +16,16 @@ Movimiento del Jugador
 •	La dirección del personaje cambia según el movimiento.  
 
 
+Recolección de Basura  
 
-Recolección de Basura
 •	Al tocar objetos etiquetados como “Trash”, estos se destruyen y se incrementa el contador de basura recolectada.
 
-Spawner de Basura
-•	La basura se genera automáticamente a través de un Spawner.
-•	La frecuencia de generación aumenta con el tiempo, incrementando la dificultad.
+Spawner de Basura  
+
+•	La basura se genera automáticamente a través de un Spawner.  
+
+•	La frecuencia de generación aumenta con el tiempo, incrementando la dificultad.  
+
 
 Pantalla de Game Over
 •	Al perder, aparece una interfaz con un botón para reiniciar el juego.
