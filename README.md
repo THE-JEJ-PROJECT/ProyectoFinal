@@ -34,6 +34,9 @@ Pantalla de Game Over
 
 
 
+
+
+
 **Configuración en Unity:**  
 
 •	Crear los prefabs de basura y etiquetarlos como Trash.  
